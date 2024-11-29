@@ -1,0 +1,48 @@
+body{
+  font-family: "Roboto", sans-serif;
+  background-image:url("fundo.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color:red;
+  font-weight:1000;
+  text-shadow:4px 4px 4px black;
+  font-size: 25px;
+  texta-lign: center;
+  display: flex;
+  flex-direction:column;
+
+}
+img{
+  max-widtth: 90%;
+}
+footer{
+  font-family:"Sacramento", serif;
+  color: blue;
+  font-weight: 500;
+ font-size: 25px;
+}
+
+.nomelink{
+  text-decoration:none;
+  color:green;
+}
+
+.nomelink:hover{
+  color green;
+  text-decoration:undeline;
+}
+
+
+button{
+  font-family: "bebass";
+  font-size:25px;
+  background-color: purple
+    boder: 1px solid black;
+  color: black;
+  margin: 20px
+    border-radius
+    
+}
+
+

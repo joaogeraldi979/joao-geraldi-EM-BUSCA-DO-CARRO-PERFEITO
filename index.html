@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <main>
+      <div class="passo ativo" id="passo-0">
+           <img src="logo.png">
+      <p>Passo 0: Introdução
+Na movimentada cidade de Autoville, famosa por suas corridas de carros e inovações tecnológicas, vivia um jovem mecânico chamado Lucas. Ele tinha cabelos negros bagunçados e olhos verdes que brilhavam de determinação. Lucas passava seus dias na oficina de seu avô, onde aprendia a arte de construir e modificar carros. Seu sonho era competir na Grande Corrida de Autoville, um evento que reunia os melhores pilotos e suas máquinas velozes 
+        A cidade estava em festa, decorada com bandeirinhas coloridas e luzes piscantes. O asfalto estava brilhante e os motores roncavam ansiosamente. Em meio à multidão, Lucas avistou dois carros icônicos: um carro esportivo vermelho, reluzente como fogo, e um elegante sedã azul, que exalava sofisticação. Ele soube que deveria escolher um deles para sua participação na corrida
+      </p>
+      <button class="proximo" data-proximo="1">
+      Carro Esportivo Vermelho
+      </button>
+    
+    <button class="proximo" data-proximo="2">
+      Sedã Azul
+      </button>
+      
+      
+      <button
+              class="proximo" data-proximo="4"> Esconde
+            proximo="2">
+        começar a corrida
+      </div>
+    
+      <div class="passo" id="passo-2">
+         <img src="logo.png">
+        <p>
+Se Lucas tivesse escolhido o Botão 2 (Sedã Azul), teria entrado em um carro confortável, projetado para estabilidade. No entanto, ele teria enfrentado uma escolha diferente
+        </p>
+        
+        <button class="proximo" data-proximo="5">
+          (Estratégia Defensiva): Focar em se proteger dos outros pilotos e fazer ultrapassagens cuidadosas
+        </button>
+        
+        <button class="proximo" data-proximo="6">
+           (Aposte na Velocidade): Tentar manter um ritmo rápido, mas correr o risco de se tornar vulnerável a ataques de outros corredores
+        </button>
+      </div>
+      
+      <div class="passo" id="passo-5">
+        <p>
+          Caso tivesse optado pelo Botão 5 (Estratégia Defensiva) no sedã azul, Lucas teria conseguido evitar embates diretos, mas poderia ter perdido tempo. Se ele tivesse seguido pelo Botão 6 (Aposte na Velocidade), a corrida poderia se transformar em uma disputa acirrada
+        </p>
+        
+        <button class="proximo" data-proximo="7">
+          Lucas manobraria com maestria e conseguiria contornar a curva, conquistando uma vantagem imensa sobre seus adversários. Com isso, ele teria a chance de ganhar a corrida e a admiração da multidão
+        </button>
+        
+        <button class="proximo" data-proximo="8">
+          Um atalho arriscado que prometia reduzir o tempo de corrida, mas com curvas traiçoeiras
+        </button>
+      </div>
+      
+      <div class="passo" id="passo-6">
+         <img src="perdeu.png">
+        <p>
+          Escolha do Botão 6
+Se Lucas escolhece (Aposte na Velocidade), poderia acabar batendo em outro carro, resultando em uma perda instantânea e frustração ao abandonar a corrida antes mesmo de completar a volta
+        </p>
+        
+        <button class="proximo" data-proximo="0">
+          
+        </button>
+        
+       
+      </div>
+      
+      <div class="passo" id="passo-7">
+         <img src="ganhou.png">
+        <p>
+          Lucas manobraria com maestria e conseguiria contornar a curva, conquistando uma vantagem imensa sobre seus adversários. Com isso, ele teria a chance de ganhar a corrida e a admiração da multidão
+        </p>
+        
+        <button class="proximo" data-proximo="0">
+          
+        </button>
+        
+      
+      </div>
+      
+      <div class="passo" id="passo-8">
+        <p>
+          Após sua vitória no carro esportivo vermelho, Lucas se sentia invencível. A adrenalina ainda pulsava em suas veias, e ele poderia decidir competir novamente, reavaliando suas escolhas.
+        </p>
+        
+        <button class="proximo" data-proximo="3">
+          
+        </button>
+        
+        <button class="proximo" data-proximo="4">
+          
+        </button>
+      </div>
+      
+      <div class="passo" id="passo-3">
+        <p>
+          Optando pelo Botão 3 (Caminho da Velocidade), Lucas acelerou ao máximo, fazendo curvas fechadas com destreza. Porém, uma curva inesperada apareceu, e ele teve que decidir rapidamente
+        </p>
+        
+        <button class="proximo" data-proximo="9">
+          
+        </button>
+        
+        <button class="proximo" data-proximo="10">
+          
+        </button>
+      </div>
+      
+      <div class="passo" id="passo-4">
+        <p>
+          
+        </p>
+        
+        <button class="proximo" data-proximo="0">
+          
+        </button>
+      </div>
+      
+      <div class="passo" id="passo-10">
+         <img src="perdeu.png">
+        <p>
+        Porém, se ele não aprendesse com suas experiências e repetisse erros, poderia enfrentar derrotas dolorosas, mas cada uma delas o ensinaria valiosas lições sobre perseverança e coragem.
+        </p>
+        
+        <button class="proximo" data-proximo="0">
+          
+        </button>
+      </div>
+      
+      <div class="passo" id="passo-9">
+         <img src="ganhou.png">
+        <p>
+          Se Lucas repetisse suas escolhas bem-sucedidas, ele garantiriam novas vitórias e se tornaria uma lenda nas corridas de Autoville, conquistando o respeito de todos os pilotos
+        </p>
+        
+        <button class="proximo" data-proximo="0">
+          
+        </button>
+      </div>
+      
+      
+      </div>
+    </main>
+  <footer>
+    
+    <p>jogo produzido por <a hreff="https://github.com/joaogeraldi979
+class="nomelink">joao geraldi </a> </p></footer>
+    
+    <script src="sketch.js"></script>
+  </body>
+</html>
